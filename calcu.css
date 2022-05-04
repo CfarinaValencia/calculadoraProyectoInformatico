@@ -1,0 +1,79 @@
+.titulo{
+font-family:'"Open Sans", sans-serif';
+color:black;
+font-size: 30px;
+text-align: center;
+}
+.sub{
+    font-family:'"Open Sans", sans-serif';
+    color:black;
+    font-size: 20px;  
+}
+body{
+    background: linear-gradient(to bottom right, rgba(109, 179, 236, 0.884), white);
+}
+#calculadora-style{
+    height: auto;
+    width: 800px;
+    border-style: solid;
+    
+     text-align:center;
+    background-color:rgb(37, 114, 214);
+}
+li {
+    display: inline;
+  }
+  
+  a {
+    
+    border-radius: 30px;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: rgb(253, 247, 247);
+  }
+  #calusocial{
+ border-style: solid;
+ border-color: rgba(0, 0, 0, 0.87);
+  }
+  li:last-child a {
+    margin-right: 0;
+  }
+  
+  a:link, a:visited, a:focus {
+    background: rgba(81, 105, 241, 0.404);
+    color:black;
+  }
+  
+  a:hover {
+    background: rgb(75, 144, 247);
+    color:black;
+  }
+  
+  a:active {
+    background: red;
+    color: white;
+  }
+  #divHijo {
+    height:50px;
+    width:400px;
+     margin:0px auto;
+    background-color:red;
+}
+#pension-total{
+    width: 280px;
+}
+#salud-total{
+    width: 290px;
+}
+#IBC{
+width: 320px;
+}
+#pago-total{
+width: 290px;
+text-align: center;
+}
